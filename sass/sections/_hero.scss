@@ -1,0 +1,74 @@
+.hero {
+    padding: 92px 0px 125px 0px;
+    
+    &__items {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+    }
+
+    &__title {
+        color: $black-color;
+        font-size: 72px;
+        font-weight: 700;
+        line-height: 1.15;
+        letter-spacing: 2px;
+        width: 647px;
+
+        .hero__span {
+            color: $accent-color;
+            font-size: 72px;
+            font-weight: 700;
+            line-height: 82.5px; /* 114.583% */
+            letter-spacing: 2px;
+        }
+    }
+
+    &__text {
+        color: $gray-color;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 1,5;
+        width: 547px;
+    }
+
+    &__list {
+        display: flex;
+        gap: 20px;
+    }
+
+    &__btn {
+        background: $black-color;
+        color: $white-color;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1;
+        padding: 17px 30px 23px 30px;
+        border-radius: 15px;
+        transition: 250ms cubic-bezier(0.075, 0.82, 0.165, 1);
+
+        .hero__list > .hero__item-btn:nth-child(2) > & {
+            background: transparent;
+            color: $black-color;
+            padding: 17px 20px 23px 20px; 
+
+            &:hover, &:focus {
+                background-color: $accent-color ;
+                color: $white-color
+            }
+        }
+
+        &:hover, &:focus {
+            background-color: $accent-color;
+        }
+    }
+
+    &__img {
+        width: 500px;
+    }
+}
