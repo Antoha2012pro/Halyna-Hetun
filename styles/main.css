@@ -454,6 +454,7 @@ body {
 
 .product {
   padding: 156px 0px 115px 0px;
+  background: #94e8ff;
 }
 .product__items {
   display: flex;
