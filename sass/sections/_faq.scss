@@ -1,0 +1,58 @@
+.faq {
+    padding: 82px 0px 71px 0px;
+    background: $bcg-color-purple;
+
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__direction {
+        text-align: center;
+        color: $blue-color;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 1;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+    }
+
+    &__title {
+        text-align: center;
+        color: $white-color;
+        font-size: 54px;
+        font-weight: 700;
+        line-height: 1.1;
+        letter-spacing: 1px;
+        margin: 20px 0px 150px 0px;
+    }
+
+    &__items {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        row-gap: 30px;
+        column-gap: 0px;
+    }
+
+    &__item {
+        flex-basis: calc((100% - 49px) / 2);
+        width: 583px;
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 0px 50px 0px;
+        border-bottom: 1px solid $border-color;
+    }
+
+    &__text {
+        color: $white-color;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 1.3;
+        letter-spacing: 0.3px;
+    }
+
+    &__img {
+        width: 24px;
+    }
+}

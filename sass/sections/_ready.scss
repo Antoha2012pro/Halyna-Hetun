@@ -1,0 +1,17 @@
+.ready {
+    padding: 178px 0px 98px 0px; 
+    background: $bcg-color-purple;
+
+    &__title {
+        color: $white-color;
+        font-size: 54px;
+        font-weight: 700;
+        line-height: 1.1;
+        letter-spacing: 1px;
+
+        &-span {
+            color: $blue-color;
+            letter-spacing: 0.5px;
+        }
+    }
+}

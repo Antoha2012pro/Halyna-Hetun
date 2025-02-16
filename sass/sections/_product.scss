@@ -1,0 +1,159 @@
+.product {
+    padding: 156px 0px 115px 0px;
+
+    &__items {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__item {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__items > &__item:nth-child(1) {
+    }
+
+    &__titles {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    &__direction {
+        color: $service-color;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 1;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+    }
+
+    &__title {
+        color: $black-color;
+        font-size: 54px;
+        font-weight: 700;
+        line-height: 1.1;
+        letter-spacing: 1px;
+    }
+
+    &__text {
+        width: 625px;
+        color: $gray-color;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 40px; 
+    }
+
+    &__items > &__item:nth-child(2) {
+        gap: 16px;
+        margin: 115px 0px 154px 0px;
+    }
+
+    &__img {
+
+
+        .product__items > .product__item:nth-child(2) > &:nth-child(1) {
+            width: 338px;
+        }
+
+        .product__items > .product__item:nth-child(2) > &:nth-child(2) {
+            width: 507px;
+        }
+
+        .product__items > .product__item:nth-child(2) > .product__images > & {
+            width: 100%;
+        }
+    }
+
+    &__images {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        width: 338px; 
+    }
+
+    &__items > &__item:last-child {
+        display: inline;
+    }
+
+    &__experiences {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__experience {
+        display: flex;
+        flex-direction: column;
+        gap: 83px;
+    }
+
+    &__subtitle {
+        color: $black-color;
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 1;
+    }
+
+    &__works {
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+    }
+
+    &__work {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        width: 583.188px;
+        border-bottom: 1px solid $border-hex-color;
+        padding: 0px 0px 39px 0px;
+        position: relative;
+    }
+
+    &__educations {
+        display: flex;
+        flex-direction: column;
+        gap: 9px;
+    }
+
+    &__name {
+        color: $black-color;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 1.1;
+    }
+
+    &__work-subtitle {
+        color: $gray-color;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20.8px;
+    }
+
+    &__year {
+        color: $gray-color;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20.8px;
+    }
+
+    &__dates {
+        display: flex;
+        gap: 35px;
+        height: 100%;
+        align-items: flex-end;
+    }
+
+    &__year {
+        margin: 0px 60px 0px 0px;
+    }
+
+    &__link {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+
+}

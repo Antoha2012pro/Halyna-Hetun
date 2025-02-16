@@ -1,5 +1,16 @@
 .projects {
     padding: 80px 0px 80px 0px;
+    position: relative;
+
+    &::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 237px;
+        background: $bcg-color-blue;
+    }
 
     &__items {
         display: flex;
@@ -63,7 +74,7 @@
     }
 
     &__project {
-        background: $accent-color;
+        background: $white-color;
     }
 
     &__img {
@@ -93,16 +104,17 @@
         margin: 17px 0px 19px 0px;
     }
 
-    &__view-box {
+    &__view-link {
         display: flex;
         gap: 10px;
-    }
-
-    &__view {
         color: $black-color;
         font-size: 18px;
         font-weight: 400;
         line-height: 1;
+    }
+
+    &__arrow {
+        width: 15px;
     }
 
 
